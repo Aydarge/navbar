@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(fantasy-4367602_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  height: 8vh;
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.8s;
+}
+h2 {
+  cursor: pointer;
+  transition: 0.8s;
+}
+a:hover {
+  color: #c83520;
+}
+h2:hover {
+  color: #c83520;
+}
